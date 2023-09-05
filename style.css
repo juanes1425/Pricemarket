@@ -102,7 +102,6 @@ button {
   button span:nth-child(5) {
     transform: translate(3.5em, 3.8em);
   }
-  
   button:hover span:not(:nth-child(6)) {
     transform: translate(-50%, -50%) scale(4);
     transition: 1.5s ease;
@@ -140,17 +139,16 @@ button {
     padding:0 150px;
 }
 h1, .slogan{
-    font-size: 55px;
+    font-size: 40px;
     line-height:1;
     color:#48a8d4;
     margin-bottom:25px; 
 }
 h2, .n1{
     color: #48a8d4;
-    font-size:25px;
+    font-size:20px;
     line-height:2;
     text-align: center;
-
 }
 span{
    color: #694cd3;
@@ -175,11 +173,9 @@ p{
     text-align: center;
     margin-bottom: 10px;
 }
-
 .information.container p{
     text-align: center;
 }
-
 .container-resp {
     border-radius: 1rem;
     display: flex;
@@ -187,11 +183,9 @@ p{
     justify-content: center;
     padding: 8rem 2rem;
 }
-
 .container-morado {
     background-color: #694cd3;
 }
-
 .container-azul {
     background-color:#0099ff;
 }
@@ -203,7 +197,6 @@ body {
     background: #F5F7FA;
     font-family: 'Open Sans', sans-serif;
 }
-
 .footer {
     z-index: 1;
     --footer-background: #0099ff;
@@ -212,7 +205,6 @@ body {
     grid-area: footer;
     min-height: 12rem;
 }
-
 .footer .bubbles {
     position: absolute;
     top: 0;
@@ -222,7 +214,6 @@ body {
     background: var(--footer-background);
     filter: url("#blob");
 }
-
 .footer .bubbles .bubble {
     position: absolute;
     left: var(--position, 50%);
@@ -230,12 +221,10 @@ body {
     border-radius: 100%;
     transform: translate(-50%, 100%);
 }
-
 .footer .bubbles .bubble {
     animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s),
         bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
 }
-
 .footer .content {
     z-index: 2;
     display: grid;
@@ -244,35 +233,28 @@ body {
     padding: 2rem;
     background: var(--footer-background);
 }
-
 .footer .content a, .footer .content p {
     color: #F5F7FA;
     text-decoration: none;
 }
-
 .footer .content b {
     color: white;
 }
-
 .footer .content p {
     margin: 0;
     font-size: 0.75rem;
 }
-
 .footer .content > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 .footer .content > div > div {
     margin: 0.25rem 0;
 }
-
 .footer .content > div > * {
     margin-right: 0.5rem;
 }
-
 .footer .content > div .image {
     align-self: center;
     width: 4rem;
@@ -281,7 +263,6 @@ body {
     background-size: cover;
     background-position: center;
 }
-
 @keyframes bubble-size {
     0%, 75% {
         width: var(--size, 4rem);
@@ -292,7 +273,6 @@ body {
         height: 0rem;
     }
 }
-
 @keyframes bubble-move {
     0% {
         bottom: -4rem;
@@ -301,14 +281,12 @@ body {
         bottom: var(--distance, 10rem);
     }
 }
-
 .map{
     display: flex;
     justify-content: center;
     padding: 20px;
     flex-direction: column;
 }
-
 iframe{
     width:500px;
     height:350px;
@@ -320,4 +298,5 @@ iframe{
     width:250px;
     height:200px;
     margin:0;
+    box-shadow: 0px 0px 10px rgba(1, 2, 3, 0.473);
 }
