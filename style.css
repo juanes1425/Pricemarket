@@ -144,6 +144,13 @@ h1, .slogan{
     color:#48a8d4;
     margin-bottom:25px; 
 }
+h2, .n1{
+    color: #48a8d4;
+    font-size:40px;
+    line-height:2;
+    justify-content: center;
+
+}
 span{
    color: #694cd3;
 }
