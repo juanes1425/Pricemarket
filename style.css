@@ -157,6 +157,7 @@ p{
     font-size:15px;
     color:#000000;
     font-weight:400;
+    
 }
 .information.container {
     width: 1366px;
@@ -167,10 +168,10 @@ p{
       "responsabilidad-social responsabilidad-ambiental" 240px
       / 1fr 1fr;
     gap: 55px;
-    justify-content: center;
+    justify-content:center;
 }
 .information.container h3{
-    text-align: center;
+    text-align:center;
     margin-bottom: 10px;
 }
 .information.container p{
@@ -236,13 +237,17 @@ body {
 .footer .content a, .footer .content p {
     color: #F5F7FA;
     text-decoration: none;
+    
 }
 .footer .content b {
-    color: white;
+    color: rgb(255, 255, 255);
+    
 }
 .footer .content p {
     margin: 0;
+    color: #ffffff;
     font-size: 0.75rem;
+    justify-content: left;
 }
 .footer .content > div {
     display: flex;
